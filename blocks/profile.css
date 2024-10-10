@@ -46,6 +46,7 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
+  padding-bottom: 7px;
 }
 
 .profile__description {
