@@ -8,11 +8,48 @@
 @import url("../blocks/cards.css");
 @import url("../blocks/card.css");
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 940px) {
+  .profile__info {
+    grid-template-columns: minmax(auto, 315px) auto;
+    padding-right: 30px;
+  }
+
+  .profile__title {
+    font-size: 30px;
+  }
+
+  .profile__description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .profile__add-button {
+    height: 50px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 641px) {
   .profile {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 42px;
+    max-width: 282px;
+    max-height: 286px;
+  }
+
+  .profile__image {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+
+  .profile__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.63px;
+    align-self: center;
   }
 
   .profile__info {
@@ -20,22 +57,38 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    padding: 0;
+    gap: 10px;
   }
 
   .profile__description {
     width: 100%;
     text-align: center;
+    padding-top: 4px;
+    padding-bottom: 36px;
+    margin: 0;
+  }
+
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
   }
 
   .profile__add-button {
     margin: 0;
     width: 100%;
   }
-}
 
-@media screen and (max-width: 1100px) {
-  .page__section {
-    margin: 0 20px;
-    max-width: calc(100% - 40px);
+  .header {
+    margin-top: 28px;
+    max-width: 320px;
+    max-height: 56px;
+  }
+
+  .footer {
+    padding-top: 48px;
+    padding-bottom: 36px;
+    width: 282px;
+    height: 14px;
   }
 }

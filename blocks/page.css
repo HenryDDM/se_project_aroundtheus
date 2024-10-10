@@ -2,6 +2,8 @@
   font-family: Inter, Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .page__section {
@@ -14,5 +16,7 @@
 .page__content {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
