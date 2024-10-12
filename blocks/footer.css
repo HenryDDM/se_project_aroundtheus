@@ -8,8 +8,23 @@
 
 .footer__text {
   color: #545454;
-  width: 318px;
-  height: 18px;
+  max-width: 318px;
   padding: 0;
   margin: 0;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+@media screen and (max-width: 641px) {
+  .footer {
+    padding-top: 48px;
+    padding-bottom: 36px;
+    max-width: 282px;
+    min-height: 14px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
 }
