@@ -12,4 +12,8 @@ On this project I used a combination of display grid and flexbox with as many no
 
 Plans for the project include optimization for the queires as well as improving the add button.
 
+##### Video link (Google Drive)
+
+https://drive.google.com/file/d/1RlFI9h_Oc5RIajJPNFNA8vRxQEb6LFh9/view?usp=sharing
+
 Thank you!
