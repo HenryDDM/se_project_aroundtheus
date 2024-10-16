@@ -117,6 +117,7 @@
     font-size: 22px;
     line-height: 26.63px;
     align-self: center;
+    max-width: 220px;
   }
 
   .profile__info {
@@ -134,15 +135,20 @@
     padding-top: 4px;
     padding-bottom: 36px;
     margin: 0;
+    max-width: 280px;
   }
 
   .profile__edit-button {
     height: 18px;
     width: 18px;
+    position: relative;
+    top: -3px;
   }
 
   .profile__add-button {
     margin: 0;
-    width: 100%;
+    min-width: 282px;
+    min-height: 50px;
+    padding: 0;
   }
 }

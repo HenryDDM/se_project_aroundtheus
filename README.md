@@ -16,4 +16,8 @@ Plans for the project include optimization for the queires as well as improving 
 
 https://drive.google.com/file/d/1RlFI9h_Oc5RIajJPNFNA8vRxQEb6LFh9/view?usp=sharing
 
+###### Github link (Github Pages)
+
+https://henryddm.github.io/se_project_aroundtheus/
+
 Thank you!
